@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<componentPackage>
+	<component id="Transformer" class="us.sban.transformer.Transformer"/>
+</componentPackage>

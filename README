@@ -1,0 +1,25 @@
+Transformer
+一个提供可视绽放、旋转对象的AS3工具类库。
+
+sban 2008
+blog:blog.sban.us
+weibo:weibo.com/angrymarble
+
+1.0
+支持在Flex项目下对Flex,AS3对象进行可视绽放，旋转操作。
+<pre>
+<fx:Script>
+	<![CDATA[
+		import mx.events.FlexEvent;
+		import us.sban.transformer.Transformer;
+		protected function application1_creationCompleteHandler(event:FlexEvent):void
+		{
+			var t:Transformer = new Transformer();
+			this.addElement(t);
+			t.target = btn;
+		}
+	]]>
+</fx:Script>
+<s:Button label="" x="100" y="100" height="100" width="200" id="btn" />
+</pre>
+
